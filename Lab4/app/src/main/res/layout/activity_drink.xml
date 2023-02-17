@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrinkActivity">
+
+
+    <RadioGroup
+        android:id="@+id/drinkGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/pepsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pepsi" />
+
+        <RadioButton
+            android:id="@+id/heineken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heineken" />
+
+        <RadioButton
+            android:id="@+id/tiger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiger" />
+
+        <RadioButton
+            android:id="@+id/saiGonDo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sài gòn Đỏ" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/datMonBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp"
+        android:text="Đặt món"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
